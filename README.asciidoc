@@ -1,0 +1,34 @@
+= Tooling
+
+In progres...
+
+This repository holds different tools:
+
+.Authorization Server
+
+Keycloak is a built-in Authorization server to leverage security to protect
+ resources.
+
+Leverages link:http://openid.net/connect/[OpenId Connect (OIDC)] protocol.
+A token-base security protocol which can use JWTs built on top of OAuth2
+
+link:keycloak/README.asciidoc{ext-relative}[Read More]
+
+
+.Metrics
+
+Graphite-Carbon-StatsD-Grafana stack to leverage metrics for containers
+running in our environment.
+
+link:metrics/README.asciidoc{ext-relative}[Read More]
+
+.Central Logging System
+
+ElasticSearch-logstack-kibana stack to leverage a central logging system
+with useful charts and dashboards to peer the behavior of the services.
+
+link:elk/README.asciidoc{ext-relative}[Read More]
+
+
+
+

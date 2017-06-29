@@ -1,0 +1,7 @@
+*
+!.gitignore
+!README.asciidoc
+!elk/README.asciidoc
+!metrics/README.asciidoc
+!keycloak/README.asciidoc
+
