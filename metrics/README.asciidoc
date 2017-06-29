@@ -1,0 +1,15 @@
+= Metrics
+
+In progress...
+
+Metrics is Grapgite + Carbon + StatsD + Grafana to collect metrics
+and expose dashboards with charts to easily analyse data.
+
+== Dependecies
+
+* Docker
+* Docker Compose
+* Make
+
+
+== Installation

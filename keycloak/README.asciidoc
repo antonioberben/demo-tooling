@@ -1,0 +1,34 @@
+= Keycloak (Authorization Server)
+
+In progress...
+
+Keycloak is an Authorization Server (AS) which is used,
+in our case to protect resources.
+
+For a complete documentation go to link:http://www.keycloak.org/documentation.html[official website].
+
+== Dependecies
+
+* Docker
+* Docker Compose
+* Make
+
+
+== Installation
+
+Docker Compose file defines two services: the keycloak server and the
+database (PostgreSQL)
+
+Makefile holds all commands required to build the container defined
+in the Dockerfile.
+
+Rename `docker-compose.env.example` to `docker-compose.env`
+
+Fulfill environment variables properly.
+
+---
+include::docker-compose.env[]
+---
+
+
+
