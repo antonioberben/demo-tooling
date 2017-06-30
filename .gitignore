@@ -1,11 +1,9 @@
-*
-!.gitignore
-!README.asciidoc
-!LICENSE
-!elk
+.idea
+
+
+elk/*
 !elk/README.asciidoc
-!metrics
+metrics/*
 !metrics/README.asciidoc
-!keycloak
-!keycloak/README.asciidoc
+
 
