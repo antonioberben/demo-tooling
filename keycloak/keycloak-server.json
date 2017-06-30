@@ -1,0 +1,10 @@
+{
+  "theme": {
+    "staticMaxAge": 1,
+    "cacheTemplates": false,
+    "cacheThemes": false,
+    "folder": {
+      "dir": "${jboss.home.dir}/themes"
+    }
+  }
+}
