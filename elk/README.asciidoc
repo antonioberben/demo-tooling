@@ -2,7 +2,7 @@
 
 In progress...
 
-ELK is ElasticSearch + LogStack + Kibana to centralize the log files.
+ELK is ElasticSearch + LogStash + Kibana to centralize the log files.
 
 == Dependecies
 
