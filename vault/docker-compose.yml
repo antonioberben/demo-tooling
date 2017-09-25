@@ -1,4 +1,4 @@
-version: '2'
+version: '3'
 services:
   vault_server:
     container_name: vault_server
